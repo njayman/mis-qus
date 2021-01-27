@@ -69,7 +69,11 @@ function App() {
                   <div className="content has-text-centered">
                     <p>
                       <strong>This form is developed and maintained</strong> by{" "}
-                      <a href="https://github.com/njayman" target="_blank">
+                      <a
+                        href="https://github.com/njayman"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         Najish Mahmud
                       </a>
                       .
