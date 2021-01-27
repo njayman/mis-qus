@@ -29,7 +29,7 @@ function App() {
               setMesssage={(m) => setMessage(m)}
             />
           ) : (
-            <>
+            <div style={{ height: "calc(100hv - 144px)" }}>
               <section className="hero is-primary">
                 <div className="hero-body">
                   <div className="container">
@@ -54,7 +54,10 @@ function App() {
               </section>
               <section>
                 <div className="container">
-                  <p className="subtitle has-text-danger	">
+                  <p
+                    className="subtitle has-text-danger"
+                    style={{ padding: "20px" }}
+                  >
                     Disclaimer: We do not collect any information from your
                     device. Only the information that you input in the form
                     fields are collected. Please do not input your email,
@@ -62,8 +65,19 @@ function App() {
                     Thanks for your co-operation.
                   </p>
                 </div>
+                <footer className="footer">
+                  <div className="content has-text-centered">
+                    <p>
+                      <strong>This form is developed and maintained</strong> by{" "}
+                      <a href="https://github.com/njayman" target="_blank">
+                        Najish Mahmud
+                      </a>
+                      .
+                    </p>
+                  </div>
+                </footer>
               </section>
-            </>
+            </div>
           )}
         </>
       )}
