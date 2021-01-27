@@ -55,6 +55,7 @@ export default function Stepthree({ setStep, formdata, setFormdata }) {
             <textarea
               className="textarea"
               name="qthree.response"
+              placeholder="(optional, but please try to explain briefly)"
               defaultValue={formdata?.qthree?.response}
               ref={register}
               rows={2}

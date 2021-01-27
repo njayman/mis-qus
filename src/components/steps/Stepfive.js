@@ -53,6 +53,7 @@ export default function Stepfive({ setStep, formdata, setFormdata }) {
             <textarea
               className="textarea"
               name="qfive.response"
+              placeholder="(optional, but please try to explain briefly)"
               defaultValue={formdata?.qfive?.response}
               ref={register}
               rows={2}

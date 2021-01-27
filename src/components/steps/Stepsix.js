@@ -53,6 +53,7 @@ export default function Stepsix({ setStep, formdata, setFormdata }) {
             <textarea
               className="textarea"
               name="qsix.response"
+              placeholder="(optional, but please try to explain briefly)"
               defaultValue={formdata?.qsix?.response}
               ref={register}
               rows={2}

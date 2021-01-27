@@ -53,6 +53,7 @@ export default function Stepfour({ setStep, formdata, setFormdata }) {
             <textarea
               className="textarea"
               name="qfour.response"
+              placeholder="(optional, but please try to explain briefly)"
               defaultValue={formdata?.qfour?.response}
               ref={register}
               rows={2}

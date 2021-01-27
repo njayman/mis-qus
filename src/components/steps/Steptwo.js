@@ -53,6 +53,7 @@ export default function Steptwo({ setStep, formdata, setFormdata }) {
             <textarea
               className="textarea"
               name="qtwo.response"
+              placeholder="(optional, but please try to explain briefly)"
               defaultValue={formdata?.qtwo?.response}
               ref={register}
               rows={2}

@@ -19,6 +19,7 @@ export default function Stepeight({ setStep, submitEntry, formdata, loading }) {
             <textarea
               className="textarea"
               name="qeight.response"
+              placeholder="(mandatory field, please try to explain briefly)"
               defaultValue={formdata?.qeight?.response}
               ref={register({ required: "this field is required" })}
               rows={2}
@@ -41,6 +42,7 @@ export default function Stepeight({ setStep, submitEntry, formdata, loading }) {
             <textarea
               className="textarea"
               name="qnine.response"
+              placeholder="(mandatory field, please try to explain briefly)"
               defaultValue={formdata?.qnine?.response}
               ref={register({ required: "this field is required" })}
               rows={2}

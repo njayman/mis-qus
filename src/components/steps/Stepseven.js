@@ -56,6 +56,7 @@ export default function Stepseven({ setStep, formdata, setFormdata }) {
             <textarea
               className="textarea"
               name="qseven.response"
+              placeholder="(optional, but please try to explain briefly)"
               defaultValue={formdata?.qseven?.response}
               ref={register}
               rows={2}
