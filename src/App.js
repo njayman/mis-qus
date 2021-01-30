@@ -7,7 +7,6 @@ function App() {
   const [start, setStart] = useState(false);
   const [thanks, setThanks] = useState(false);
   const [message, setMessage] = useState("");
-  const [result, setResult] = useState(true);
   return (
     <div className="container has-background-light">
       {thanks ? (
