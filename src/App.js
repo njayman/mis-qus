@@ -50,13 +50,6 @@ function App() {
                     >
                       Continue
                     </button>
-                    <button
-                      className="button is-large"
-                      style={{ marginLeft: "20px" }}
-                      onClick={() => setResult(true)}
-                    >
-                      See the result
-                    </button>
                   </div>
                 </div>
               </section>
