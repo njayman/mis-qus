@@ -16,8 +16,8 @@ export default function Stepfive({ setStep, formdata, setFormdata }) {
       <div className="card-content">
         <div className="field">
           <label className="label">
-            Do you think effect on mental health can also cause physical
-            distress in the adolscents?
+            Do you think the effect on mental health can also cause physical
+            distress in adolescents?
           </label>
           <div className="control">
             <label className="radio">

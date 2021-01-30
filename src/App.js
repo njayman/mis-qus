@@ -1,11 +1,13 @@
 import { useState } from "react";
 import "./App.css";
 import Form from "./components/Form";
+import Result from "./components/result/Result";
 
 function App() {
   const [start, setStart] = useState(false);
   const [thanks, setThanks] = useState(false);
   const [message, setMessage] = useState("");
+  const [result, setResult] = useState(true);
   return (
     <div className="container has-background-light">
       {thanks ? (
@@ -49,6 +51,13 @@ function App() {
                     >
                       Continue
                     </button>
+                    <button
+                      className="button is-large"
+                      style={{ marginLeft: "20px" }}
+                      onClick={() => setResult(true)}
+                    >
+                      See the result
+                    </button>
                   </div>
                 </div>
               </section>
@@ -65,6 +74,7 @@ function App() {
                     Thanks for your co-operation.
                   </p>
                 </div>
+                <Result />
                 <footer className="footer">
                   <div className="content has-text-centered">
                     <p>

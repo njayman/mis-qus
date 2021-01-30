@@ -17,7 +17,7 @@ export default function Steptwo({ setStep, formdata, setFormdata }) {
         <div className="field">
           <label className="label">
             Do you think the current situation due to Covid-19 creates
-            psychological distress among the adolscents?
+            psychological distress among the adolescents?
           </label>
           <div className="control">
             <label className="radio">

@@ -12,7 +12,7 @@ export default function Stepeight({ setStep, submitEntry, formdata, loading }) {
       <div className="card-content">
         <div className="field">
           <label className="label">
-            How can the adolscents seek help to recover their mental health in
+            How can the adolescents seek help to recover their mental health in
             this ongoing covid19 pandemic?
           </label>
           <div className="control">
@@ -36,7 +36,7 @@ export default function Stepeight({ setStep, submitEntry, formdata, loading }) {
         <div className="field">
           <label className="label">
             How can parents play a role in removing the depression of the
-            adolscents?
+            adolescents?
           </label>
           <div className="control">
             <textarea
@@ -74,7 +74,7 @@ export default function Stepeight({ setStep, submitEntry, formdata, loading }) {
               className="button is-primary"
             >
               {loading ? (
-                <progress classN="progress is-small is-primary" max="100">
+                <progress className="progress is-small is-primary" max="100">
                   15%
                 </progress>
               ) : (

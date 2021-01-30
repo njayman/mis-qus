@@ -17,7 +17,7 @@ export default function Stepsix({ setStep, formdata, setFormdata }) {
         <div className="field">
           <label className="label">
             Can the effect on mental health have a significant impact on the
-            adolscents' future?
+            adolescents' future?
           </label>
           <div className="control">
             <label className="radio">
